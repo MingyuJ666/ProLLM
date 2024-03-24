@@ -14,7 +14,15 @@ We present **Biological Large Language Model for Protein-Protein Interaction pre
 
 - **Enhanced Predictive Accuracy**: This approach not only facilitates a deeper understanding of protein functions and interactions but also enhances the model's predictive accuracy by incorporating protein-specific embeddings and instruction fine-tuning on domain-specific datasets.
 
-## Impact and Applications
 
-BioLLM-PPI stands at the frontier of computational biology, offering a robust and nuanced tool for unraveling the intricacies of protein-protein interactions. It is crucial for advancements in medical research, drug discovery, and understanding biological processes.
+## Usage
 
+  
+
+0. Clone this repo
+
+  
+
+```
+
+git clone https://github.com/jmyissb/BioLLM.git
