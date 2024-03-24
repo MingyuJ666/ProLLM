@@ -26,3 +26,9 @@ We present **Biological Large Language Model for Protein-Protein Interaction pre
 ```
 
 git clone https://github.com/jmyissb/BioLLM.git
+
+1. Download preprocessed data from ...
+
+  
+
+2. Download Flan-T5-large pretrained checkpoint via this ...
