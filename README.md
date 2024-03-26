@@ -26,7 +26,8 @@ We present **Biological Large Language Model for Protein-Protein Interaction pre
 
 git clone https://github.com/jmyissb/BioLLM.git
 
-1. Download preprocessed data from ...
+1. Download [SHS27K, SHS148K, STRING] from https://drive.google.com/file/d/1hJVrQXddB9JK68z7jlIcLfd9AmTWwgJr/view?usp=drive_link
+   Download [Human] from
 
   
 
