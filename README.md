@@ -16,7 +16,10 @@ We present **Biological Large Language Model for Protein-Protein Interaction pre
 
 ## Requirements
 
-See the requirements.txt
+```
+
+pip install -r requirements.txt
+```
 
 ## Usage🧰
 
@@ -59,3 +62,6 @@ python eva_BioLLM-PPI.py --model_path /path/to/model/dir --csv_path /path/to/tes
 
 ## Checkpoint 
 See: [Google Drive link](https://drive.google.com/drive/folders/1mHGdE0x57pX2ie6U4BJxZg5w3KL2SWa7?usp=drive_link).
+
+
+## Evaluation
