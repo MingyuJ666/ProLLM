@@ -44,7 +44,8 @@ python [dataset]_preprocess.py
 3. Do training through train_BioLLM-PPI.py , make sure the location of model and tokenizer in right place. Feel free to change 'num_epochs', 'batch_size' and 'learning_rate'.
 ```
 
-python train_BioLLM-PPI.py 
+python train_BioLLM-PPI.py --model_dir /path/to/model/dir --tokenizer_dir /path/to/tokenizer/dir --data_file dataset.csv --num_epochs 1 --batch_size 2 --learning_rate 3e-4 --output_dir /path/to/output/dir
+
 
 ```
 
