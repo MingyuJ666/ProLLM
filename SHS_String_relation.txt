@@ -1,0 +1,8 @@
+activation	0
+binding	1
+catalysis	2
+expression	3
+inhibition	4
+post-translational	5
+reaction	6
+ptmod	7
