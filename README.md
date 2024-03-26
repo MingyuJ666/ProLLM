@@ -32,4 +32,6 @@ git clone https://github.com/jmyissb/BioLLM.git
 
 2. Download BioLLM-PPI based on Flan-t5-large pretrained checkpoint via this [Google Drive link](https://drive.google.com/drive/folders/1mHGdE0x57pX2ie6U4BJxZg5w3KL2SWa7?usp=drive_link)
 
+3. Preprocess the dataset into Protein Chain of Thought (ProCoT) by the [dataset]_preprocess.py
 
+4. 
