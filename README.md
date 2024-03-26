@@ -65,6 +65,6 @@ See: [Google Drive link](https://drive.google.com/drive/folders/1mHGdE0x57pX2ie6
 
 
 ## Evaluation
-
+### Compare our model with other PPI models
 <div align=center><img src="pic/table_compare.png" width="100%" height="100%" /></div>
 
