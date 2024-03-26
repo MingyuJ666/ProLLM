@@ -53,7 +53,7 @@ python train_BioLLM-PPI.py --model_dir /path/to/model/dir --tokenizer_dir /path/
 
 ```
 
-python eva_BioLLM-PPI.py 
+python eva_BioLLM-PPI.py --model_path /path/to/model/dir --csv_path /path/to/testdata
 
 ```
 
