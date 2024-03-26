@@ -30,8 +30,8 @@ git clone https://github.com/jmyissb/BioLLM.git
 ### train
 1. Download [SHS27K, SHS148K, STRING](https://drive.google.com/file/d/1hJVrQXddB9JK68z7jlIcLfd9AmTWwgJr/view?usp=drive_link) and [Human](https://drive.google.com/drive/folders/1hT_lAZUB0p-8AuV7x8BCa8cltlhSQpmQ?usp=drive_link)
 
-2. Download BioLLM-PPI based on Flan-t5-large pretrained checkpoint via this [Google Drive link](https://drive.google.com/drive/folders/1mHGdE0x57pX2ie6U4BJxZg5w3KL2SWa7?usp=drive_link)
+2. Preprocess the dataset into Protein Chain of Thought (ProCoT) by the [dataset]_preprocess.py
 
-3. Preprocess the dataset into Protein Chain of Thought (ProCoT) by the [dataset]_preprocess.py
+3. Do training through train_BioLLM-PPI.py
 
-4. Do training through train_BioLLM-PPI.py
+4. Evaluate through eva_BioLLM-PPI
