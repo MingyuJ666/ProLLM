@@ -35,3 +35,6 @@ git clone https://github.com/jmyissb/BioLLM.git
 3. Do training through train_BioLLM-PPI.py
 
 4. Evaluate through eva_BioLLM-PPI
+
+## Checkpoint 
+See: [Google Drive link](https://drive.google.com/drive/folders/1mHGdE0x57pX2ie6U4BJxZg5w3KL2SWa7?usp=drive_link).
