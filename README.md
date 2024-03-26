@@ -34,4 +34,4 @@ git clone https://github.com/jmyissb/BioLLM.git
 
 3. Preprocess the dataset into Protein Chain of Thought (ProCoT) by the [dataset]_preprocess.py
 
-4. 
+4. Do training through train_BioLLM-PPI.py
