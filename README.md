@@ -35,7 +35,7 @@ git clone https://github.com/jmyissb/BioLLM.git
 1. Download [SHS27K, SHS148K, STRING](https://drive.google.com/file/d/1hJVrQXddB9JK68z7jlIcLfd9AmTWwgJr/view?usp=drive_link) and [Human](https://drive.google.com/drive/folders/1hT_lAZUB0p-8AuV7x8BCa8cltlhSQpmQ?usp=drive_link)
 
 2. Preprocess the dataset into Protein Chain of Thought (ProCoT) by the [dataset]_preprocess.py
-   ```
+```
 
 python [dataset]_preprocess.py
 
