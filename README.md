@@ -41,9 +41,20 @@ python [dataset]_preprocess.py
 
 ```
 
-4. Do training through train_BioLLM-PPI.py
+3. Do training through train_BioLLM-PPI.py , make sure the location of model and tokenizer in right place. Feel free to change 'num_epochs', 'batch_size' and 'learning_rate'.
+```
 
-5. Evaluate through eva_BioLLM-PPI.py
+python train_BioLLM-PPI.py 
+
+```
+
+6. Evaluate through eva_BioLLM-PPI.py , the model to evaluate should be the location of the training model from step 3.
+
+```
+
+python eva_BioLLM-PPI.py 
+
+```
 
 ## Checkpoint 
 See: [Google Drive link](https://drive.google.com/drive/folders/1mHGdE0x57pX2ie6U4BJxZg5w3KL2SWa7?usp=drive_link).
