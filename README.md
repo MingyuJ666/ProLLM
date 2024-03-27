@@ -17,7 +17,6 @@ We present **Protein Chain-of-Thoughts enhanced LLM for Protein-Protein Interact
 ## Requirements
 
 ```
-
 pip install -r requirements.txt
 ```
 
@@ -30,9 +29,7 @@ pip install -r requirements.txt
   
 
 ```
-
 git clone https://github.com/jmyissb/BioLLM.git
-
 ```
 ### train🧑‍💻
 1. Download [SHS27K, SHS148K, STRING](https://drive.google.com/file/d/1hJVrQXddB9JK68z7jlIcLfd9AmTWwgJr/view?usp=drive_link) and [Human](https://drive.google.com/drive/folders/1hT_lAZUB0p-8AuV7x8BCa8cltlhSQpmQ?usp=drive_link)
