@@ -5,7 +5,7 @@ This repo presents implementation of the **ProLLM🧬**
 
 
 
-We present **Protein Chain-of-Thoughts enhanced LLM for Protein-Protein Interaction Prediction**, abbreviated as **ProLLM**. This innovative framework leverages the advanced capabilities of Large Language Models (LLMs) to interpret and analyze protein sequences and interactions through a natural language processing lens. 
+We present **Protein Chain-of-Thoughts Enhanced LLM for Protein-Protein Interaction Prediction**, abbreviated as **ProLLM**. This innovative framework leverages the advanced capabilities of Large Language Models (LLMs) to interpret and analyze protein sequences and interactions through a natural language processing lens. 
 
 ## Key Features of ProLLM🔑
 
