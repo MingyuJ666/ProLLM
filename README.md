@@ -1,5 +1,5 @@
 
-# ProLLM: Protein Chain-of-Thoughts enhanced LLM for Protein-Protein Interaction Prediction
+# ProLLM: Protein Chain-of-Thoughts Enhanced LLM for Protein-Protein Interaction Prediction
 This repo presents implementation of the **ProLLM🧬** 
 <div align=center><img src="pic/pic1.png" width="100%" height="100%" /></div>
 
