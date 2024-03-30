@@ -9,7 +9,7 @@ We present **Protein Chain-of-Thoughts Enhanced LLM for Protein-Protein Interact
 
 ## Key Features of ProLLM🔑
 
-- **Protein Chain of Thought (ProCoT) Method**: BioLLM-PPI introduces the Protein Chain of Thought (ProCoT) method, transforming the complex, structured data of protein interactions into intuitive, natural language prompts. 
+- **Protein Chain of Thought (ProCoT) Method**: ProLLM introduces the Protein Chain of Thought (ProCoT) method, transforming the complex, structured data of protein interactions into intuitive, natural language prompts. 
 
 - **Enhanced Predictive Accuracy**: This approach not only facilitates a deeper understanding of protein functions and interactions but also enhances the model's predictive accuracy by incorporating protein-specific embeddings and instruction fine-tuning on domain-specific datasets.
 <div align=center><img src="pic/Flow.png" width="100%" height="100%" /></div>
