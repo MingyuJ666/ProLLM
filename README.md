@@ -61,4 +61,12 @@ Please cite the following paper corresponding to the repository:
   year={2024},
   publisher={Cold Spring Harbor Laboratory}
 }
+@misc{jin2024prollm,
+      title={ProLLM: Protein Chain-of-Thoughts Enhanced LLM for Protein-Protein Interaction Prediction}, 
+      author={Mingyu Jin and Haochen Xue and Zhenting Wang and Boming Kang and Ruosong Ye and Kaixiong Zhou and Mengnan Du and Yongfeng Zhang},
+      year={2024},
+      eprint={2405.06649},
+      archivePrefix={arXiv},
+      primaryClass={q-bio.BM}
+}
 ```
