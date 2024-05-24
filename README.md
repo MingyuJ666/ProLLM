@@ -50,23 +50,3 @@ See: [Google Drive link](https://drive.google.com/drive/folders/1mHGdE0x57pX2ie6
 ### Compare our model with other PPI models
 <div align=center><img src="pic/table_compare.png" width="100%" height="100%" /></div>
 
-## Citation
-Please cite the following paper corresponding to the repository:
-```
-@article{jin2024prollm,
-  title={ProLLM: Protein Chain-of-Thoughts Enhanced LLM for Protein-Protein Interaction Prediction},
-  author={Jin, Mingyu and Haochen, Xue and Wang, Zhenting and Kang, Boming and Ye, Ruosong and Zhou, Kaixiong and Du, Mengnan and Zhang, Yongfeng},
-  journal={bioRxiv},
-  pages={2024--04},
-  year={2024},
-  publisher={Cold Spring Harbor Laboratory}
-}
-@misc{jin2024prollm,
-      title={ProLLM: Protein Chain-of-Thoughts Enhanced LLM for Protein-Protein Interaction Prediction}, 
-      author={Mingyu Jin and Haochen Xue and Zhenting Wang and Boming Kang and Ruosong Ye and Kaixiong Zhou and Mengnan Du and Yongfeng Zhang},
-      year={2024},
-      eprint={2405.06649},
-      archivePrefix={arXiv},
-      primaryClass={q-bio.BM}
-}
-```
