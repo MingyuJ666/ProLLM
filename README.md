@@ -43,7 +43,7 @@ python eva_ProLLM.py --model_path /path/to/model/dir --csv_path /path/to/testdat
 ```
 
 ## Checkpoint 
-See: [Google Drive link](https://drive.google.com/drive/folders/1mHGdE0x57pX2ie6U4BJxZg5w3KL2SWa7?usp=drive_link).
+See: The previous link expired, we will update it later...
 
 
 ## Evaluation
