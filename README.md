@@ -46,7 +46,4 @@ python eva_ProLLM.py --model_path /path/to/model/dir --csv_path /path/to/testdat
 See: The previous link expired, we will update it later...
 
 
-## Evaluation
-### Compare our model with other PPI models
-<div align=center><img src="pic/table_compare.png" width="100%" height="100%" /></div>
 
