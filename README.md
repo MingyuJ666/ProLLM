@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
   
 ### train🧑‍💻
-1. Download [SHS27K, SHS148K, STRING](https://drive.google.com/file/d/1hJVrQXddB9JK68z7jlIcLfd9AmTWwgJr/view?usp=drive_link) and [Human](https://drive.google.com/drive/folders/1hT_lAZUB0p-8AuV7x8BCa8cltlhSQpmQ?usp=drive_link)
+1. Download [SHS27K, SHS148K, STRING] and [Human](https://drive.google.com/drive/folders/19h8ekwKjvSS48Il_AQbUMfi8nDeCuivu?usp=sharing)
 
 2. Preprocess the dataset into Protein Chain of Thought (ProCoT) by the [dataset]_preprocess.py
 ```
