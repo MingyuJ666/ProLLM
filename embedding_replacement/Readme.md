@@ -1,0 +1,1 @@
+python script_name.py --file_path ./embedding_result.h5 --model_path /root/autodl-tmp/PulyLanguage/flan-t5-large --tokenizer_path /root/autodl-tmp/PulyLanguage/flan-t5-large --save_directory /root/autodl-tmp/PulyLanguage/KGLLM_REMAKE/new_embedding_t5
