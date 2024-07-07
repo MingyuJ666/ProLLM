@@ -1,4 +1,10 @@
 # Step 1: Generate the ProTrans embedding
+```
+python generate_embedding.py --sequence_file ./human_multiclass_protein_dictionary.tsv --fasta_file ./protein_sequence.fasta --model_dir ./prot_t5_xl_uniref50 --embedding_file embedding_result.h5
+
+```
+
+The "sequence_file" is the protein sequence file, the "fasta_file" is another format for saving the protein sequence file, the "model_dir" is the directory of the ProTrans model, and the "embedding_file" is the file for saving the embeddings.
 
 
 # Step 2: Do the embedding replacement
