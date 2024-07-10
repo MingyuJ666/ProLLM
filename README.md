@@ -55,3 +55,13 @@ If you find this paper helpful, please consider to cite:
 }
 
 ```
+
+```
+@article{jin2024prollm,
+  title={ProLLM: Protein Chain-of-Thoughts Enhanced LLM for Protein-Protein Interaction Prediction},
+  author={Jin, Mingyu and Xue, Haochen and Wang, Zhenting and Kang, Boming and Ye, Ruosong and Zhou, Kaixiong and Du, Mengnan and Zhang, Yongfeng},
+  journal={arXiv e-prints},
+  pages={arXiv--2405},
+  year={2024}
+}
+```
