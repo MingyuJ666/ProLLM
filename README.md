@@ -32,20 +32,14 @@ pip install -r requirements.txt
 ```
 python [dataset]_preprocess.py
 ```
+3. Do the embedding replacement in ./embedding_replacement
 
-3. Do training through train_ProLLM.py , make sure the location of model and tokenizer in right place. Feel free to change 'num_epochs', 'batch_size' and 'learning_rate'.
+4. Instruction finturning in ./Instruction_fintuning
+
+5. Do training through train_ProLLM.py , make sure the location of model and tokenizer in right place. Feel free to change 'num_epochs', 'batch_size' and 'learning_rate'.
 ```
 python train_ProLLM.py --model_dir /path/to/model/dir --tokenizer_dir /path/to/tokenizer/dir --data_file dataset.csv --num_epochs 1 --batch_size 2 --learning_rate 3e-4 --output_dir /path/to/output/dir
 ```
-
-6. Evaluate through eva_ProLLM.py , the model to evaluate should be the location of the training model from step 3.
-
-```
-python eva_ProLLM.py --model_path /path/to/model/dir --csv_path /path/to/testdata
-```
-
-## Checkpoint 
-See: The previous link expired, we will update it later...
 
 
 ## Citation 
