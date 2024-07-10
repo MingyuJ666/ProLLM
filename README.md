@@ -1,6 +1,8 @@
 
 # ProLLM: Protein Chain-of-Thoughts Enhanced LLM for Protein-Protein Interaction Prediction
-This repo presents implementation of the **ProLLM🧬** 
+This repo presents the implementation of the **ProLLM🧬** 
+
+The paper has been accepted by **COLM 2024**. 
 <div align=center><img src="pic/fig1.png" width="100%" height="100%" /></div>
 
 
@@ -46,4 +48,8 @@ python eva_ProLLM.py --model_path /path/to/model/dir --csv_path /path/to/testdat
 See: The previous link expired, we will update it later...
 
 
+## Citation 
+If you find this paper helpful, please consider to cite:
+```
 
+```
