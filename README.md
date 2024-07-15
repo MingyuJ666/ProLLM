@@ -25,16 +25,21 @@ pip install -r requirements.txt
 ## Usage🧰
 
   
-### train🧑‍💻
+### Dataset🧑‍💻
 1. Download [SHS27K, SHS148K, STRING and Human](https://drive.google.com/drive/folders/19h8ekwKjvSS48Il_AQbUMfi8nDeCuivu?usp=sharing)
+
+### Preprocess
 
 2. Preprocess the dataset into Protein Chain of Thought (ProCoT) by the ./data_preprocess/[dataset_name]/preprocess.py
 ```
 python [dataset]_preprocess.py
 ```
-3. Do the embedding replacement in ./embedding_replacement
+3. Do the embedding replacement in [./embedding_replacement](./embedding_replacement)
 
-4. Instruction finturning in ./Instruction_fintuning
+### Instruction finturning
+4. Instruction fintuning in [./Instruction_fintuning](./Instruction_fintuning)
+
+### train🧑‍💻
 
 5. Do training through train_ProLLM.py , make sure the location of model and tokenizer in right place. Feel free to change 'num_epochs', 'batch_size' and 'learning_rate'.
 ```
