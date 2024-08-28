@@ -3,6 +3,10 @@
 This repo presents the implementation of the **ProLLM🧬** 
 
 The paper has been accepted by **COLM 2024**. 
+
+Paper link: https://openreview.net/forum?id=2nTzomzjjb#discussion
+
+Arxiv link: https://arxiv.org/abs/2405.06649
 <div align=center><img src="pic/fig1.png" width="100%" height="100%" /></div>
 
 
@@ -52,15 +56,14 @@ python train_ProLLM.py --model_dir /path/to/model/dir --tokenizer_dir /path/to/t
 ## Citation 
 If you find this paper helpful, please consider to cite:
 ```
-@article{jin2024prollm,
-  title={ProLLM: Protein Chain-of-Thoughts Enhanced LLM for Protein-Protein Interaction Prediction},
-  author={Jin, Mingyu and Haochen, Xue and Wang, Zhenting and Kang, Boming and Ye, Ruosong and Zhou, Kaixiong and Du, Mengnan and Zhang, Yongfeng},
-  journal={bioRxiv},
-  pages={2024--04},
-  year={2024},
-  publisher={Cold Spring Harbor Laboratory}
+@inproceedings{
+jin2024prollm,
+title={Pro{LLM}: Protein Chain-of-Thoughts Enhanced {LLM} for Protein-Protein Interaction Prediction},
+author={Mingyu Jin and Haochen Xue and Zhenting Wang and Boming Kang and Ruosong Ye and Kaixiong Zhou and Mengnan Du and Yongfeng Zhang},
+booktitle={First Conference on Language Modeling},
+year={2024},
+url={https://openreview.net/forum?id=2nTzomzjjb}
 }
-
 ```
 
 ```
