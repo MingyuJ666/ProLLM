@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
   
 ### Dataset🧑‍💻
-1. Download [SHS27K, SHS148K, STRING and Human](https://drive.google.com/drive/folders/19h8ekwKjvSS48Il_AQbUMfi8nDeCuivu?usp=sharing)
+1. Download [SHS27K, SHS148K, STRING and Human](https://drive.google.com/drive/folders/1YxzqBBkgNsfQbUEvTgrLjL85mBQoJrch?usp=drive_link)
 
 ### Preprocess
 
