@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 import os
 import argparse
 
+# Add parser option for multi-label handling
 parser = argparse.ArgumentParser(description='Generate ProCoT-Format QA Dataset For Training and Testing')
 parser.add_argument('--input_file', type=str, default='Human_PPI.tsv', help='Path to the input file')
 parser.add_argument('--train_file', type=str, default='Human_train.csv', help='Path to the output training file')
@@ -16,6 +17,7 @@ parser.add_argument('--graph_size', type=int, default=10, help='The max size of 
 parser.add_argument('--total_train', type=int, default=30000, help='Total samples to generate for training')
 parser.add_argument('--total_test', type=int, default=5000, help='Total samples to generate for testing')
 parser.add_argument('--random_state', type=int, default=42, help='Random seed for reproducibility')
+parser.add_argument('--multi_label', action='store_true', help='Flag to indicate multi-label output (default is single label)')
 
 args = parser.parse_args()
 
@@ -57,7 +59,8 @@ def dfs(graph, size, total, writer_tra):
         last_node = ""
         previous_node = first_node
         input_text = ""
-        output_text = ""
+        output_text = []
+
         while len(visited) < graph_size:
             if previous_node not in graph or set(graph[previous_node].keys()).issubset(visited):
                 node = random.choice(node_list)
@@ -86,21 +89,27 @@ def dfs(graph, size, total, writer_tra):
             if first_node in graph and last_node in graph[first_node]:
                 relation = graph[first_node][last_node]
                 text_relation = relation2id[int(relation)]
-                output_text += 'The relation is {}.'.format(text_relation)
-                prompt = 'What is the relationship between {} and {} ?'.format(first_node, last_node)
-                writer_tra.writerow({'input_text': input_text + prompt, 'output_text': output_text})
+                output_text.append(f'The relation is {text_relation}.')
                 pos_count += 1
                 times += 1
             elif last_node in graph and first_node in graph[last_node]:
                 relation = graph[last_node][first_node]
                 text_relation = relation2id[int(relation)]
-                output_text += 'The relation is {}.'.format(text_relation)
-                prompt = 'What is the relationship between {} and {}?'.format(last_node, first_node)
-                writer_tra.writerow({'input_text': input_text + prompt, 'output_text': output_text})
+                output_text.append(f'The relation is {text_relation}.')
                 pos_count += 1
                 times += 1
+
+        # Handle multi-label or single-label output
+        if args.multi_label:
+            output_text = ', '.join(output_text)  # Join multiple relations in a single string for multi-label
         else:
-            continue
+            output_text = output_text[0] if output_text else ''  # Only take the first relation for single-label
+        
+        # Ensure there is an output_text to write
+        if output_text:
+            prompt = 'What is the relationship between {} and {}?'.format(first_node, last_node)
+            writer_tra.writerow({'input_text': input_text + prompt, 'output_text': output_text})
+
     print(pos_count)
 
 # Generate training data
