@@ -4,3 +4,5 @@
 
 
 ### 
+How to do the multi-label?
+We have a parser 'multi_label', it can control the prepocess process of our ProCoT data for further fine-tuning.
