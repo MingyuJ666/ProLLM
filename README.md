@@ -43,6 +43,7 @@ python [dataset]_preprocess.py
 
 ### Embedding replacement
 3. Do the embedding replacement in [./embedding_replacement](./embedding_replacement)
+   (Embedding needs to be run on your own, as it is too large to be uploaded.)
 
 ### Instruction finturning
 4. Instruction fintuning in [./Instruction_fintuning](./Instruction_fintuning)
