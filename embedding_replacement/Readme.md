@@ -15,3 +15,6 @@ python embedding_replacement.py --file_path ./embedding_result.h5 --model_path .
 
 
 "file_path" is the embedding to be replaced, "model_path" is the model to be replaced, "tokenizer_path" is the tokenizer to be replaced, and "save_directory" is the save location for the new model.
+
+Model Directory (--model_dir): We utilize the pre-trained ProtT5-Large model. Due to the large file size, the model weights are not stored in our repository. You can download the model and tokenizer from the official ProtTrans repository here: https://github.com/agemagician/ProtTrans.
+
